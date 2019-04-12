@@ -1,0 +1,28 @@
+html {
+    background-color: white;
+}
+header {
+    display: inline-flex;
+    position: fixed;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 14px;
+    
+}
+.left-head {
+    display: flex;
+    align-items: center;
+    color: mediumaquamarine;
+}
+.logo-words {
+    margin-left: 10px;
+}
+nav a {
+    margin: 0px 10px;
+    color: black;
+}
