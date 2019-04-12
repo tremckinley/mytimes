@@ -1,23 +1,31 @@
 html {
     background-color: white;
 }
+div {
+    border: 1px black solid;
+}
 header {
-    display: inline-flex;
+    display: flex;
     position: fixed;
     border-bottom: 1px solid black;
     width: 100%;
     padding: 5px;
     justify-content: space-between;
+    margin-right: auto;
     align-items: center;
     font-weight: bold;
     font-family: Verdana;
     font-size: 14px;
-    
+    z-index: 5;
+    background-color: white; opacity: 1;
 }
 .left-head {
     display: flex;
     align-items: center;
     color: mediumaquamarine;
+}
+.right-head {
+    margin-right: 5%
 }
 .logo-words {
     margin-left: 10px;
@@ -25,4 +33,30 @@ header {
 nav a {
     margin: 0px 10px;
     color: black;
+}
+.main-contain {
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: auto;
+    right: auto;
+    flex-direction: row;
+    border: blue dashed 2px;
+    justify-content: space-between;
+    
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.column.large {
+    width: 630px;
+    
+  }  
+.column.medium {
+    width: 300px;
+}  
+.column.small {
+    width: 240px;
 }
