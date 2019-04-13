@@ -1,5 +1,6 @@
 html {
     background-color: white;
+    margin: 0%, 0%;
 }
 div {
     border: 1px black solid;
@@ -34,12 +35,17 @@ nav a {
     margin: 0px 10px;
     color: black;
 }
+.story-picture p {
+    margin: 0%
+}
 .main-contain {
     display: flex;
     position: relative;
-    top: 80px;
-    left: auto;
-    right: auto;
+    top: 70px;
+    width: 1232px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
     flex-direction: row;
     border: blue dashed 2px;
     justify-content: space-between;
@@ -49,6 +55,7 @@ nav a {
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding-bottom: 30px;
 }
 .column.large {
     width: 630px;
