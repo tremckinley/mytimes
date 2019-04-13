@@ -2,8 +2,11 @@ html {
     background-color: white;
     margin: 0%, 0%;
 }
+body {
+    margin: 0%;
+}
 div {
-    border: 1px black solid;
+    display: inline-flexbox;
 }
 header {
     display: flex;
@@ -36,6 +39,7 @@ nav a {
     color: black;
 }
 .story-picture p {
+    display: flex;
     margin: 0%
 }
 .main-contain {
@@ -47,23 +51,93 @@ nav a {
     margin-right: auto;
     padding-top: 30px;
     flex-direction: row;
-    border: blue dashed 2px;
     justify-content: space-between;
-    
+    height: 1000px;
 }
 .column {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    padding-bottom: 30px;
 }
 .column.large {
     width: 630px;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }  
 .column.medium {
+    margin: 0%;
     width: 300px;
 }  
 .column.small {
     width: 240px;
+}
+.headline {
+    display: flex;
+    background-image: url(./images/nightparty.png);
+    background-size: cover;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+.subline h2 {
+    margin-top: 0%;
+}
+.subline p {
+    display: flex;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+.subline.left{
+    width: 300px;
+    align-content: space-around;
+}
+.story-picture{
+   display: flex;
+    flex-direction: column;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.little-stories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 630px;
+    height: 530px;
+    align-content: space-around;
+}
+#fall {
+    background-image: url(./images/fall-time.png);
+    display: flex;
+    width: 300px;
+    margin-top: 5px;
+}
+#memory {
+    background-image: url(./images/hip-camera.png);
+    display: flex;
+    width: 300px;
+    margin-top: 5px;
+}
+#kitty {
+    background-image: url(./images/kitty-lord.png);
+    display: flex;
+    width: 300px;
+}
+.small p {
+    
+    border-bottom: 1pt solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    margin: 0%;
+    padding: 5px;
 }
